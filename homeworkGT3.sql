@@ -12,7 +12,7 @@ JOIN
 JOIN
     Suppliers ON Products.SupplierID = Suppliers.SupplierID;
 
---2.Вывести заказы клиентов не из France  (номерзаказа, имяклиента, страна_клиента--
+--2.Вывести заказы клиентов не из France  (номерзаказа, имяклиента, страна_клиента)--
 
 SELECT 
     Orders.OrderID AS OrderNumber,
